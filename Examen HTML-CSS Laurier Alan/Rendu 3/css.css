@@ -1,0 +1,55 @@
+body{
+    background: rgb(56,223,151);
+    background: linear-gradient(90deg, rgba(56,223,151,1) 14%, rgba(8,236,138,1) 32%, rgba(8,204,236,1) 48%, rgba(8,147,236,1) 64%);
+    color: white;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header ol{
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px;
+}
+#header li{
+    margin-right: 30px;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+}
+
+#bloc_gauche{
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#titre{
+    font-size: 2.5em;
+    padding-bottom: 25px;
+}
+
+#bouton{
+    margin-top: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#bouton img{
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+
+#bloc_droit{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}

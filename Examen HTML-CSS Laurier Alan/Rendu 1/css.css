@@ -1,0 +1,43 @@
+body{
+    height: 100%;
+    background-image: url("images/homme_fond_noir.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+#header{
+    color: rgb(153, 26, 26);
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    margin-left: 25px;
+}
+
+img{
+    height: 200px;
+    width: 250px
+}
+
+#texte{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 100px;
+}
+
+p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+span{
+    color: rgb(153, 26, 26);
+}

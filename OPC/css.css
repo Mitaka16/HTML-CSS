@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'AlexBrush';
+    src: url('AlexBrush.ttf');
+}
+
+body
+ {
+    background-image: url('images/background.jpg');
+    background-attachment: fixed;
+ }
+
+*
+ {
+     font-family: 'Courier New', Courier, monospace, sans-serif;
+ }
+
+h2
+ {
+     color: #2080f5;
+     font-size: 2.25em;
+     text-align: center;
+     border: 1.5px #e51af0 solid;
+     margin: 0 40% 0 40%;
+     border-radius: 2.5em;
+     box-shadow: 6px 6px 4px #c154c7;
+ }
+
+h1 
+ {
+    
+    color: #0767a3;
+    font-size: 3.25em;
+    font-family: 'AlexBrush';
+    font-style: oblique;
+    text-decoration: underline #e51af0;
+    text-align: right;
+ }
+
+ul
+ {
+     font-size: 1.15em;
+     color: #1cebd3;
+     text-align: center;
+     list-style: none;
+ }
+
+.photoFlottante
+ {
+    float: right;
+ }
+
+.dessous
+ {
+    clear: both;
+ }
+
+mark
+ {
+     color: #edf5f4;
+     background: none;
+ }
+

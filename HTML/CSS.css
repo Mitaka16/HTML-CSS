@@ -1,0 +1,26 @@
+*
+{
+  background-color: grey;
+}
+
+h1
+ { font-weight: bold;
+   color: red;
+   font-style: italic; 
+   
+ }
+ 
+h2
+ { color: blue;
+   text-decoration: underline;
+ }
+ 
+.images
+ {
+   display: flex;
+   height: 825px;
+   background-color: seagreen;
+   justify-content: space-between;
+   align-items: flex-end;
+  }
+
